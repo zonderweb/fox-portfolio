@@ -4,7 +4,7 @@ $susy: (
 	gutters: .3333,
 	container: 960px,
 	global-box-sizing: border-box,
-	debug: (image: show)
+	debug: (image: hide)
 );
 
 @include border-box-sizing;

@@ -36,7 +36,7 @@ body textarea:required:valid {
 }
 
 body {
-	font-size: 16px;
+	font-size: rem(16px);
 	min-width: 320px;
 	position: relative;
 	line-height: 1.75;
