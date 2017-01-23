@@ -5,6 +5,8 @@
 @import "app/libs/susy/sass/susy"; //Susy
 @import "grid";
 
+@include border-box-sizing;
+
 *::-webkit-input-placeholder {
 	color: #666;
 	opacity: 1;
