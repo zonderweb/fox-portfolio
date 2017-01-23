@@ -1,11 +1,12 @@
-@import "bourbon"
-@import "fonts"
-@import "libs"
-@import "vars"
+@import "bourbon";
+@import "fonts";
+@import "libs";
+@import "vars";
 
-*::-webkit-input-placeholder
-	color: #666
-	opacity: 1
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
 
 *:-moz-placeholder
 	color: #666
