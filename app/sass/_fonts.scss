@@ -1,10 +1,7 @@
 @import "bourbon";
 
-// SASS
-// +font-face("roboto", "../fonts/RobotoRegular/RobotoRegular", $file-formats: eot woff ttf)
-// +font-face("roboto", "../fonts/RobotoBold/RobotoBold", bold, $file-formats: eot woff ttf)
 
+@include font-face("FontAwesome", "../fonts/FontAwesome/fontawesome-webfont", $file-formats: eot woff woff2 ttf svg );
 
 @include font-face("roboto", "../fonts/RobotoRegular/RobotoRegular", $file-formats: eot woff ttf);
-
 @include font-face("roboto", "../fonts/RobotoBold/RobotoBold", bold, $file-formats: eot woff ttf);
