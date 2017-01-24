@@ -16,6 +16,12 @@ $accent: orange;
 	}
 }
 
+// inline block
+@mixin inlineblock ($valine: top) {
+	display: inline-block;
+	vertical-align: $valine;
+}
+
 //responsive (rem)
 @function rem($px) {
   @return $px / 16px + 0rem;
