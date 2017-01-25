@@ -1,4 +1,4 @@
-<h1>OptimizedHTML - Start HTML Template</h1>
+<h1>OptimizedHTML - v2.0.0 + Addons</h1>
 
 <p>
 	<img src="https://raw.githubusercontent.com/zonderweb/clean_html_v2_0_0/master/app/img/prew_html_2.jpg" alt="Start HTML Template">
@@ -12,12 +12,12 @@
 
 <p>Cross-browser compatibility: IE9+.</p>
 
-<p>The template uses a Sass with <strong>Sass</strong> syntax and project structure with source code in the directory <strong>app/</strong> and production folder <strong>dist/</strong>, that contains ready project with optimized HTML, CSS, JS and images.</p>
+<p>The template uses a Sass with <strong>Scss</strong> syntax and project structure with source code in the directory <strong>app/</strong> and production folder <strong>dist/</strong>, that contains ready project with optimized HTML, CSS, JS and images.</p>
 
 <h2>How to use OptimizedHTML</h2>
 
 <ol>
-	<li><a href="https://github.com/agragregra/optimizedhtml-start-template/archive/master.zip">Download</a> <strong>optimizedhtml-start-template</strong> from GitHub;</li>
+	<li><a href="https://github.com/zonderweb/clean_html_v2_0_0/archive/master.zip">Download</a> <strong>optimizedhtml-start-template</strong> from GitHub;</li>
 	<li>Install Node Modules: <strong>npm i</strong>;</li>
 	<li>Run the template: <strong>gulp</strong>.</li>
 </ol>
@@ -40,8 +40,8 @@
 	<li><strong>Custom HTML</strong> comment in app/index.html - all your custom HTML;</li>
 	<li>For installing new jQuery library, just run the command "<strong>bower i plugin-name</strong>" in the terminal. Libraries are automatically placed in the folder <strong>app/libs</strong>. Bower must be installed in the system (npm i -g bower). Then place all jQuery libraries paths in the <strong>'libs'</strong> task (gulpfile.js);</li>
 	<li>All custom JS located in <strong>app/js/common.js</strong>;</li>
-	<li>All Sass vars placed in <strong>app/sass/_vars.sass</strong>;</li>
-	<li>All Bootstrap media queries placed in <strong>app/sass/_media.sass</strong>;</li>
-	<li>All jQuery libraries CSS styles placed in <strong>app/sass/_libs.sass</strong>;</li>
+	<li>All Sass vars placed in <strong>app/sass/_vars.scss</strong>;</li>
+	<li>All Bootstrap media queries placed in <strong>app/sass/_media.scss</strong>;</li>
+	<li>All jQuery libraries CSS styles placed in <strong>app/sass/_libs.scss</strong>;</li>
 	<li>Rename <strong>ht.access</strong> to <strong>.htaccess</strong> before place it in your web server. This file contain rules for files caching on web server.</li>
 </ol>
