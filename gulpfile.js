@@ -18,6 +18,7 @@ var gulp           = require('gulp'),
 gulp.task('scripts', function() {
 	return gulp.src([
 		'app/libs/jquery/dist/jquery.min.js',
+		// 'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js', // Popup
 		// 'app/libs/owl.carousel/dist/owl.carousel.min.js', // OWL Слайдер
 		'app/js/common.js', // Всегда в конце
 		])
