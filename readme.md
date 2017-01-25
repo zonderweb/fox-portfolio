@@ -8,7 +8,7 @@
 
 <p>OptimizedHTML is all-inclusive, optimized for Google PageSpeed start HTML5 template with Bootstrap (grid only), Gulp, Sass, Browsersync, Autoprefixer, Clean-CSS, Uglify, Imagemin, Vinyl-FTP, Bower (libs path) and Bourbon support. The template contains a <strong>.htaccess</strong> file with caching rules for web server.</p>
 
-<p>Addons: Susy, OWL.Carousel, FontAwesome, normalize.css.</p>
+<p>Addons: <strong>Susy</strong>, <strong>OWL.Carousel</strong>, <strong>FontAwesome</strong>, <strong>normalize.css</strong>.</p>
 
 <p>OptimizedHTML Start Template uses the best practices of web development and optimized for Google PageSpeed.</p>
 
