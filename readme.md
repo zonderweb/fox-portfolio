@@ -1,7 +1,7 @@
 <h1>OptimizedHTML - Start HTML Template</h1>
 
 <p>
-	<img src="https://raw.githubusercontent.com/agragregra/optimizedhtml-start-template/master/app/img/preview.jpg" alt="Start HTML Template">
+	<img src="https://raw.githubusercontent.com/zonderweb/clean_html_v2_0_0/master/app/img/prew_html_2.jpg" alt="Start HTML Template">
 </p>
 
 <p><a href="http://webdesign-master.ru/blog/tools/2016-08-19-optimizedhtml.html" target="_blank">Manual in Russian</a></p>
