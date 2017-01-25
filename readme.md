@@ -1,4 +1,4 @@
-<h1>OptimizedHTML - v2.0.0 + Addons</h1>
+<h1>OptimizedHTML (Scss) - v2.0.0 + Addons</h1>
 
 <p>
 	<img src="https://raw.githubusercontent.com/zonderweb/clean_html_v2_0_0/master/app/img/prew_html_2.jpg" alt="Start HTML Template">
@@ -7,6 +7,8 @@
 <p><a href="http://webdesign-master.ru/blog/tools/2016-08-19-optimizedhtml.html" target="_blank">Manual in Russian</a></p>
 
 <p>OptimizedHTML is all-inclusive, optimized for Google PageSpeed start HTML5 template with Bootstrap (grid only), Gulp, Sass, Browsersync, Autoprefixer, Clean-CSS, Uglify, Imagemin, Vinyl-FTP, Bower (libs path) and Bourbon support. The template contains a <strong>.htaccess</strong> file with caching rules for web server.</p>
+
+<p>Addons: Susy, OWL.Carousel, FontAwesome, normalize.css.</p>
 
 <p>OptimizedHTML Start Template uses the best practices of web development and optimized for Google PageSpeed.</p>
 
