@@ -1,18 +1,24 @@
-.main-nav {}
+.main-nav {
+  margin-bottom: 60px;
+}
 
 .main-nav__list,
 .main-nav__item {
    margin: 0;
    padding: 0;
-   list-style: none;
 }
 
 .main-nav__item {
+  list-style: none;
   text-align: left;
   text-transform: uppercase;
   font-size: 13px;
   line-height: 60px;
   border-bottom: 1px solid #313442;
+
+  &:last-child {
+    border-bottom: none;
+  }
 }
 
 .main-nav__link {

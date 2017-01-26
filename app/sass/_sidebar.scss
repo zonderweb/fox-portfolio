@@ -1,5 +1,5 @@
 .main-sidebar {
-  width: rem(420px);
+  width: 420px;
   background: $main-color;
   text-align: center;
   position: fixed;
@@ -26,4 +26,36 @@
   text-transform: uppercase;
   font-weight: 700;
   font-size: rem(30px);
+}
+
+.green-color {
+  color: $hover;
+}
+
+.social {}
+
+.social-icon,
+.social__item {
+  margin: 0;
+  padding: 0;
+}
+
+.social__item {
+  list-style: none;
+  @include inlineblock;
+  background: #fff;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  margin-left: 5px;
+
+  &:hover {
+    background: $hover;
+  }
+}
+
+.social__link {
+  color: $main-color;
+  display: block;
+  font-size: 18px;
 }
