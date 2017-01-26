@@ -1,16 +1,18 @@
 // susy общие настройки
 $susy: (
 	columns: 12,
-	gutters: .3333,
-	container: 960px,
+	gutters: 0,
+	// container: 960px,
+	math: fluid,
 	global-box-sizing: border-box,
-	debug: (image: hide)
+	debug: (image: show)
 );
 
-// @include border-box-sizing;
+@include border-box-sizing;
 
 // Grid (сетка)
 
-.main__wrapper {
+.main-wrapper,
+.main-content {
   @include container();
 }

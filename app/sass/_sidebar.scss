@@ -1,0 +1,29 @@
+.main-sidebar {
+  width: rem(420px);
+  background: $main-color;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 70px;
+}
+
+.logo__wrapper {
+  margin-bottom: 20px;
+}
+
+.logo-avatar {
+  height: 180px;
+  width: 180px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 3px solid #414661;
+}
+
+.portfolio-name {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: rem(30px);
+}

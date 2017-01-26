@@ -4,7 +4,9 @@
 @import "vars";
 @import "app/libs/susy/sass/susy"; //Susy
 @import "grid";
-@import "header";
+@import "sidebar";
+@import "content";
+@import "left-menu";
 
 *::-webkit-input-placeholder {
 	color: #666;
@@ -43,6 +45,8 @@ body {
 	line-height: 1.75;
 	font-family: $default-font;
 	overflow-x: hidden;
+	color: #fff;
+	// box-sizing: border-box;
 }
 
 .img-responsive {
