@@ -1,0 +1,34 @@
+.main-nav {}
+
+.main-nav__list,
+.main-nav__item {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.main-nav__item {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 60px;
+  border-bottom: 1px solid #313442;
+}
+
+.main-nav__link {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  position: relative;
+
+  &:hover {
+    color: $hover;
+  }
+
+  &:after {
+    content: "\f067";
+    position: absolute;
+    right: 0;
+    font-family: $icon;
+  }
+}
