@@ -47,16 +47,14 @@
 
   &::before {
     content: "";
-    display: inline-block;
-    vertical-align: middle;
+    @include inlineblock;
     height: 100%;
     width: 0;
   }
 }
 
 .v__align {
-  display: inline-block;
-  vertical-align: middle;
+  @include inlineblock;
   max-width: 95%;
 }
 // Конец Выравнивание по вертикали

@@ -1,8 +1,8 @@
 $(function() {
-// Magnific popup
-  $('.test-popup-link').magnificPopup({
-  type: 'image'
-  // other options
-});
+// // Magnific popup
+//   $('.img-popup-link').magnificPopup({
+//   type: 'image'
+//   // other options
+// });
 
 });
