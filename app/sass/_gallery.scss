@@ -1,0 +1,82 @@
+.gallery {};
+
+.gallery__items {};
+
+.gallery__block {
+  position: relative;
+};
+
+ .gallery__link {
+   display: block;
+   height: 100%;
+   width: 100%;
+   text-decoration: none;
+   color: #fff;
+ };
+
+.gallery__pic {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.gallery__block--info {
+  background: $galery-color;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+// Выравнивание по вертикали
+.align__wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    width: 0;
+  }
+}
+
+.v__align {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 95%;
+}
+// Конец Выравнивание по вертикали
+
+.work-title {
+  font-size: rem(18px);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: rem(60px);
+  position: relative;
+  margin-top: 0;
+
+  &:after {
+    content: "";
+    background: $hover;
+    height: 4px;
+    position: absolute;
+    left: 35%;
+    right: 35%;
+    bottom: 0;
+  }
+}
+
+.work-descr {
+  text-transform: uppercase;
+  font-size: rem(12px);
+  font-weight: 700;
+  width: auto;
+}

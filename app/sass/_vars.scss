@@ -22,7 +22,7 @@ $hover: #29d9c2;
 }
 
 // inline block
-@mixin inlineblock ($valine: top) {
+@mixin inlineblock ($valine: middle) {
 	display: inline-block;
 	vertical-align: $valine;
 }
