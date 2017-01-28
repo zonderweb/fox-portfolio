@@ -28,6 +28,13 @@
   top: 0;
   left: 0;
   text-align: center;
+  display: none;
+}
+
+.gallery__block:hover {
+  .gallery__block--info {
+    display: block;
+  }
 }
 
 // Выравнивание по вертикали
