@@ -29,6 +29,9 @@
 	color: #666;
 	opacity: 1;
 }
+* {
+	box-sizing: border-box;
+}
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
@@ -48,7 +51,6 @@ body {
 	font-family: $default-font;
 	overflow-x: hidden;
 	color: #fff;
-	// box-sizing: border-box;
 }
 
 .img-responsive {
@@ -56,5 +58,6 @@ body {
 	max-width: 100%;
 	height: auto;
 }
+
 
 @import "media"; // Всегда в конце
