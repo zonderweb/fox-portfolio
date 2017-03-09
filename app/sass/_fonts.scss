@@ -3,8 +3,8 @@
 
 @include font-face("FontAwesome", "../fonts/FontAwesome/fontawesome-webfont", $file-formats: eot woff woff2 ttf svg );
 
-// @include font-face("roboto", "../fonts/RobotoRegular/RobotoRegular", $file-formats: eot woff ttf);
-// @include font-face("roboto", "../fonts/RobotoBold/RobotoBold", bold, $file-formats: eot woff ttf);
-
 @include font-face("lato", "../fonts/Lato-Regular/Lato-Regular", $file-formats: eot woff woff2 ttf);
 @include font-face("lato", "../fonts/Lato-Bold/Lato-Bold", bold, $file-formats: eot woff woff2 ttf);
+
+@include font-face("raleway", "../fonts/Raleway-Regular/Raleway-Regular", $file-formats: ttf);
+@include font-face("raleway", "../fonts/Raleway-ExtraBold/Raleway-ExtraBold", bold, $file-formats: ttf);

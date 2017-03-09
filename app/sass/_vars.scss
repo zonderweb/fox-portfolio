@@ -1,13 +1,17 @@
 @import "bourbon";
 
 $default-font: "lato", sans-serif;
+$title-font: "raleway", sans-serif;
 $icon: "FontAwesome";
 
 
 // Colors
-$main-color: #222533;
+$main-color:   #222533;
 $galery-color: #30323f;
-$hover: #29d9c2;
+$hover:        #29d9c2;
+$grey:         #6e7f8a;
+$l-grey:       #98a4ad;
+$red:          #ef584d;
 
 
 // Mixin

@@ -14,10 +14,16 @@ $susy: (
 
 .main-wrapper,
 .main-content,
-.gallery__items {
+.gallery__items,
+.instruments,
+.techlogo__container {
   @include container();
 }
 
 .gallery__block {
 	@include span(3);
+}
+
+.techlogo__item {
+	@include span(4);
 }
