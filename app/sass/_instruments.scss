@@ -17,17 +17,6 @@
   position: relative;
   display: inline;
 
-  // &::before {
-  //   content: "";
-  //   position: absolute;
-  //   height: 1px;
-  //   width: 100%;
-  //   background: $grey;
-  //   bottom: 3px;
-  //   left: 0;
-  //   right: 0;
-  // }
-
   &::after {
     content: "";
     position: absolute;
