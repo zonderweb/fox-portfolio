@@ -1,0 +1,26 @@
+.footer-center {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.footer-social {}
+
+.footer-icon {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-icon__item {
+  list-style: none;
+  @include inlineblock;
+  margin-left: rem(15px);
+}
+
+.footer-icon__link {
+  color: $grey;
+  font-size: rem(22px);
+
+  &:hover {
+    color: $hover;
+  }
+}

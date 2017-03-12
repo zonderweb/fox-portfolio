@@ -16,7 +16,8 @@ $susy: (
 .main-content,
 .gallery__items,
 .instruments,
-.techlogo__container {
+.techlogo__container,
+.footer {
   @include container();
 }
 
@@ -25,5 +26,11 @@ $susy: (
 }
 
 .techlogo__item {
+	@include span(4);
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
 	@include span(4);
 }
