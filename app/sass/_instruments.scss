@@ -2,6 +2,7 @@
   text-align: center;
   color: $grey;
   padding: 0 rem(20px);
+  margin-bottom: 30px;
 }
 
 .instruments-title__wrapper {
@@ -32,8 +33,6 @@
 .green-letter {
   color: $hover;
 }
-
-.techlogo__wrapper {}
 
 .techlogo__item {
   @include inlineblock;

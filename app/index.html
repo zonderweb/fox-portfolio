@@ -268,15 +268,32 @@
 					</h2>
 				</div>
 
-				<div class="form__container">
-					<form action="https://formspree.io/makepisdato@gmail.com" method="POST">
-						<div class="name__wrap">
-							<input type="text" name="name">
-						</div>
+				<div class="description__wrapper">
+					<p class="instrument-description">
+						Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.
+						Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.
+					</p>
+				</div>
+
+				<div class="form-container">
+					<form class="contact-form" action="https://formspree.io/makepisdato@gmail.com" method="POST">
+
 						<div class="email__wrap">
-							<input type="email" name="_replyto" placeholder="email">
+							<input type="email" name="_replyto" placeholder="email" class="email-name">
 						</div>
-						<button type="submit" class="btn btn-form">Отправить</button>
+
+						<div class="name__wrap">
+							<input type="text" name="name" placeholder="Ваше имя" class="name-user">
+							<input type="text" name="_gotcha" style="display:none" />
+						</div>
+
+						<div class="textarea__wrap">
+							<textarea name="message" class="text-message" rows="8" placeholder="Введите текст сообщения"></textarea>
+						</div>
+
+						<div class="btn-form__wrap">
+						<button type="submit" class="btn-form">Отправить</button>
+						</div>
 					</form>
 				</div>
 
@@ -285,7 +302,7 @@
 		</div>
 
 		<footer class="footer">
-			
+
 		</footer>
 
 	</div>

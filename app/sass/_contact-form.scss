@@ -1,3 +1,68 @@
 .contact-form {
     text-align: center;
+    background: $ll-grey;
+    padding: 15px rem(40px);
+
+    .instruments-title__wrapper {
+      margin-bottom: 20px;
+    }
+}
+
+.description__wrapper {
+  margin-bottom: 30px;
+}
+
+.instrument-description {
+    color: $grey;
+    font-family: $title-font;
+    font-size: rem(14px);
+    line-height: rem(24px);
+    margin: 0;
+}
+
+.form-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.email-name,
+.name-user,
+.text-message,
+.btn-form {
+  width: 100%;
+  text-align: center;
+  font-size: rem(16px);
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding: 20px rem(10px);
+  border: none;
+  outline: 1px solid $border-grey;
+}
+
+.email-name,
+.name-user,
+.text-message {
+
+  &:focus {
+    outline: 1px solid $hover;
+  }
+}
+
+.text-message {
+  margin-bottom: 0;
+}
+
+.btn-form {
+  margin: 0;
+  background: $hover;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  outline: none;
+  line-height: rem(18px);
+
+  &:hover {
+    background: $b-hover;
+  }
 }
