@@ -17,7 +17,8 @@ $susy: (
 .gallery__items,
 .instruments,
 .techlogo__container,
-.footer {
+.footer,
+.header__wrapper {
   @include container();
 }
 
@@ -32,5 +33,13 @@ $susy: (
 .footer-left,
 .footer-center,
 .footer-right {
+	@include span(4);
+}
+
+// HEADER
+
+.header-logo,
+.header-menu,
+.header-social {
 	@include span(4);
 }

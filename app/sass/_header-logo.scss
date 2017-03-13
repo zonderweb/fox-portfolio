@@ -1,0 +1,15 @@
+.header-logo {}
+
+.header-logo__pic {
+  max-width: 50px;
+}
+
+.header-logo__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-logo__pic,
+.header-logo__link {
+  @include inlineblock;
+}
