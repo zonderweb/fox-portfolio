@@ -1,0 +1,24 @@
+.header-social {
+	text-align: center;
+
+	&__items {
+		margin: 0;
+		padding: 0;
+	}
+
+	&__item {
+		list-style: none;
+		@include inlineblock;
+	}
+	
+	&__link {
+		color: #fff;
+		margin-right: rem(15px);
+		font-size: rem(22px);
+
+		&:hover {
+			color: $hover;
+		}
+	}
+
+}

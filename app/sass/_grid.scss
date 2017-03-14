@@ -38,8 +38,14 @@ $susy: (
 
 // HEADER
 
-.header-logo,
-.header-menu,
+.header-logo {
+	@include span(3);
+}
+
+.header-menu {
+	@include span(6);	
+}
+
 .header-social {
-	@include span(4);
+	@include span(3);	
 }

@@ -2,7 +2,24 @@
   color: #fff;
   background: $main-color;
   height: 96px;
-  padding: 10px rem(20px);
+  padding: 0 rem(20px);
 }
 
-.header__wrapper {}
+.header__wrapper {
+	line-height: 94px;
+}
+
+// Фиксированное меню JS
+
+.nav-fixed {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 999;
+	opacity: .9;
+}
+
+.remove-jump {
+	padding-bottom: 96px;
+}

@@ -2,11 +2,15 @@
 
 .header-logo__pic {
   max-width: 50px;
+  margin-right: rem(10px);
+  border: 2px solid $hover;
+  border-radius: 50%;
 }
 
 .header-logo__link {
   text-decoration: none;
   color: #fff;
+  text-transform: uppercase;
 }
 
 .header-logo__pic,

@@ -1,0 +1,23 @@
+.header-menu {
+	text-align: center;
+}
+
+.main-menu__items {
+	margin: 0;
+	padding: 0;
+}
+
+.main-menu__item {
+	@include inlineblock;
+	list-style: none;
+	margin-right: rem(10px);
+}
+
+.main-menu__link {
+	color: #fff;
+	text-decoration: none;
+
+	&:hover {
+		color: $hover;
+	}
+}
