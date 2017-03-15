@@ -41,8 +41,11 @@ $(function() {
 
         if(documentScroll > headerH) {
             $("#js-nav-container").addClass("nav-fixed");
+            $("#ps-instruments").addClass("remove-jump");
         } else {
-            $("#js-nav-container").removeClass("nav-fixed");          
+            $("#js-nav-container").removeClass("nav-fixed");
+            $("#ps-instruments").removeClass("remove-jump");
+
         }
     });
 
